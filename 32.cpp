@@ -14,16 +14,16 @@ int main()
     double x2 = 0;
     double x3 = 0;
 
-    // Новые значения
+    // Переменная новых значений
     double new_x1, new_x2, new_x3;
-    
-    // Целочисленная переменная
+
+    // Счетчик переменой
     int iteration = 0;
 
-    // Максимальное число итераций 804
+    // Максимальное число итераций
     int maxIterations = 100;
 
-    while (iteration < maxIterations)
+    while (iteration < maxIterations) // цикл работает пока счётчик итераций не достигнет 100
     {
         // Сохраняем старые значения
         double old_x1 = x1;
